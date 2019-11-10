@@ -11,7 +11,7 @@ The CNN first reduces the image to a feature matrix which is then passed through
 
 ## Usage
 
-- First, download the required training and validation data along with their annotations from the below links:
+- First, download the required training and validation data along with their annotations from the below links and extract to the data folder:
   - [Training Dataset](http://images.cocodataset.org/zips/train2014.zip)
   - [Validation Dataset](http://images.cocodataset.org/zips/val2014.zip)
   - [Annotations](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
