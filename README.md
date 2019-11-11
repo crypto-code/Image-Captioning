@@ -4,7 +4,9 @@ Uses a Convolutional Neural Network along with a Long Short Term Memory model Re
 
 ## Neural Network Model 
 
-The CNN first reduces the image to a feature matrix which is then passed through the LSTM network which forms the caption.
+- **The Encoder**: The CNN encodes the images into a feature matrix which is then reduced linearly to fit the LSTM input. In this, the CNN used is the resnet-152 model which is already trained on ILSVRC-2012-CLS image classification dataset.
+
+- **The Decoder**: The LSTM decodes the linearly transformed input matrix into a list of sequenced words. In this model, the words generated in the previous iteration is passed on to the next until it reaches <end>. 
 
 <p align="center">
 <img src="https://github.com/crypto-code/Image-Captioning/blob/master/assets/model.png" align="middle" />   </p>
