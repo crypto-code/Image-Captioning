@@ -138,15 +138,15 @@ optional arguments:
 
 <p align="center">
 <img src="https://github.com/crypto-code/Image-Captioning/blob/master/assets/dog.jpg" align="middle" />   </p>
-<p align = "center"><b>\<start\> a dog is playing with a frisbee in a field . \<end\></b></p>
+<p align = "center"><b>'\<start\>' a dog is playing with a frisbee in a field . '\<end\>'</b></p>
 
 <p align="center">
 <img src="https://github.com/crypto-code/Image-Captioning/blob/master/assets/baseball.jpg" align="middle" />   </p>
-<p align = "center"><b>\<start\> a baseball player swinging a bat at a ball \<end\></b></p>
+<p align = "center"><b>'\<start\>' a baseball player swinging a bat at a ball '\<end\>'</b></p>
 
 <p align="center">
 <img src="https://github.com/crypto-code/Image-Captioning/blob/master/assets/plane.jpg" align="middle" />   </p>
-<p align = "center"><b>\ a large jetliner flying through the sky with a sky background \<end\></b></p>
+<p align = "center"><b>'\<start\>' a large jetliner flying through the sky with a sky background '\<end\>'</b></p>
 
 
 # G00D LUCK
