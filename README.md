@@ -17,3 +17,17 @@ Uses a Convolutional Neural Network along with a Long Short Term Memory model Re
   - [Training Dataset](http://images.cocodataset.org/zips/train2014.zip)
   - [Validation Dataset](http://images.cocodataset.org/zips/val2014.zip)
   - [Annotations](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
+
+- To install the coco module download the files from [here](https://github.com/pdollar/coco.git) and run the following in the main folder.
+```
+python setup.py build
+python setup.py install
+```
+
+- Now download all the files from this repository and run the following to pre-process the dataset.
+```
+python resize.py
+python build_vocab.py
+```
+
+
