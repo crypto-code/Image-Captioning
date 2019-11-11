@@ -34,7 +34,7 @@ python build_vocab.py
 ```
 python train.py
 ```
-**Note: A Pretrained model can be found [here](https://github.com/crypto-code/Image-Captioning/releases/tag/v1.0)**
+**Note: A Pretrained model can be found [here](https://github.com/crypto-code/Image-Captioning/releases/tag/v1.0), and move it to data/models**
 
 - To test the trained model, run
 ```
